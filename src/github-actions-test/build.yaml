@@ -1,0 +1,8 @@
+name: "Build app"
+description: "Action to build and test the app"
+author: "msvacina@outlook.com"
+
+
+branding:
+  icon: "mic"
+  color: "purple"
