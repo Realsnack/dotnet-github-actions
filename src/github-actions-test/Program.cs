@@ -24,7 +24,7 @@ namespace github_actions_test
         }
 
         // Create method to return the sum of two numbers
-        public static int Add(int a, int b) => a - b;
+        public static int Add(int a, int b) => a + b;
 
         // Create method to return the difference of two numbers
         public static int Subtract(int a, int b) => a - b;
