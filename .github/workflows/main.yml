@@ -21,7 +21,7 @@ jobs:
       run: dotnet restore
       working-directory: ./src/github-actions-test
     - name: Build
-      run: dotnet build --no-restore -c Release
+      run: dotnet build --no-restore
       working-directory: ./src/github-actions-test
     - name: Test
       run: dotnet test --no-build --verbosity normal
